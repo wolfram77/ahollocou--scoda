@@ -1,14 +1,8 @@
-# SCODA: A linear streaming algorithm for community detection in very large networks
+This is a fork of [ScoDA], a linear streaming algorithm for community detection, where I am trying to measure the time to find communities on static graphs. It is not clear to how to obtain modularity of communities found. I process the output [logs] and generate plots using [sheets].
 
-This repository provides a reference implementation of the streaming community detection algorithm SCoDA
-described in the following research paper submitted to an upcomming conference:
+[ScoDA]: https://github.com/ahollocou/scoda
+[logs]: https://gist.github.com/wolfram77/e2ec5e4482c9937ab9d52a57d6ab2042
+[sheets]: https://docs.google.com/spreadsheets/d/1W-k2G6zXJ6HDkY5JRiez496imN7WQjRtrsA-4KeMuwU/edit?usp=sharing
 
-**A linear streaming algorithm for community detection in very large networks**, Alexandre Hollocou, Julien Maudet, Thomas Bonald, Marc Lelarge
-
-We provide two implementations of SCoDA:
-
-- a **minimal version** of the code,
-which shall be used for practical applications (in the `minimal_code` directory);
-- and a **benchmark version** of the code,
-which provides additional tools to evaluate the performance of the algorithm
-and can be used to reproduce the results of the paper (in the `benchmark_code` directory).
+[![](https://i.imgur.com/BqZVd1F.png)][sheets]<br>
+[![](https://i.imgur.com/QjVaO08.png)][sheets]<br>
